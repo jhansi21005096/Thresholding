@@ -29,7 +29,8 @@ Display the results using loop.
 
 ## Program
 
-```python
+```
+
 # Load the necessary packages
 import cv2
 import matplotlib.pyplot as plt
@@ -85,7 +86,6 @@ for i in range(0,9):
     plt.imshow(cv2.cvtColor(images[i],cv2.COLOR_BGR2RGB))
     plt.axis("off")
     plt.show()
-
 ```
 ## Output
 
